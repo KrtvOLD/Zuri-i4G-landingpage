@@ -267,6 +267,10 @@ footer {
   #btns-hide .btn-1 a {
     border: 1.5px solid var(--dark);
   }
+  #btns-hide .btn-1 a:hover {
+    border: none;
+    color: white;
+  }
 
   .content-right {
     display: none;
