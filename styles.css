@@ -19,6 +19,10 @@ a {
   cursor: pointer;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 10px;
@@ -35,6 +39,7 @@ section {
   display: flex;
   height: 90vh;
   width: 100%;
+  overflow-y: hidden;
 }
 
 .content-left {
@@ -199,7 +204,7 @@ button.reg:hover {
 footer {
   margin-top: auto;
   background: var(--dark);
-  padding: 25px 0px 29px;
+  padding: 30px 0px 40px;
   color: white;
 }
 
