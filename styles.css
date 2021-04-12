@@ -182,7 +182,6 @@ button.reg:hover {
 }
 .btn a {
   color: white;
-  color: white;
   font-size: 1rem;
   font-weight: 800;
 }
@@ -259,6 +258,14 @@ footer {
 
   #btns-hide {
     display: flex;
+  }
+
+  #btns-hide a {
+    color: var(--dark);
+  }
+
+  #btns-hide .btn-1 a {
+    border: 1.5px solid var(--dark);
   }
 
   .content-right {
