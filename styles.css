@@ -125,6 +125,7 @@ select {
   border: 1px solid var(--form-border);
   border-radius: 5px;
   width: 100%;
+  outline: none;
 }
 select:hover {
   box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.2);
